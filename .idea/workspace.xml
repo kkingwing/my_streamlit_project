@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c64be39-1096-4ae0-8723-7d8269663bfe" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/Hello.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/1__Plotting_Demo.py" afterPathEscaped="$PROJECT_DIR$/pages/1_📈_Plotting_Demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/2__Mapping_Demo.py" afterPathEscaped="$PROJECT_DIR$/pages/2_🌍_Mapping_Demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/3__DataFrame_Demo.py" afterPathEscaped="$PROJECT_DIR$/pages/3_📊_DataFrame_Demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/About.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/page2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/page3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber_pickups.py" beforeDir="false" afterPath="$PROJECT_DIR$/uber_pickups.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello.py" beforePathEscaped="$PROJECT_DIR$/👋Hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hello.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +117,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702872216517</updated>
-      <workItem from="1702872217886" duration="5559000" />
+      <workItem from="1702872217886" duration="6036000" />
     </task>
     <servers />
   </component>
