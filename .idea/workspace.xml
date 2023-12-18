@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c64be39-1096-4ae0-8723-7d8269663bfe" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/learn_1_write_and_magic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/learn_2_text_elems.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/learn_3a_data_dataframe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/learn_3b_data_editor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/learn_3c_df_column_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/learn_3d_st_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/learn_3e_st_metric.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/learn_3f_st_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/My_Streamlit_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/My_Streamlit_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello.py" beforePathEscaped="$PROJECT_DIR$/👋Hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hello.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,27 +43,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Code/my_streamlit_project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Code/my_streamlit_project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Code\my_streamlit_project" />
       <recent name="D:\Code\My_Streamlit_project" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\my_streamlit_project\pages\测试目录 " />
+      <recent name="D:\Code\my_streamlit_project\pages" />
     </key>
   </component>
   <component name="RunManager" selected="Python.page2">
@@ -117,7 +131,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702872216517</updated>
-      <workItem from="1702872217886" duration="6036000" />
+      <workItem from="1702872217886" duration="17326000" />
+      <workItem from="1702893085233" duration="130000" />
+      <workItem from="1702893665848" duration="499000" />
     </task>
     <servers />
   </component>
