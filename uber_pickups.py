@@ -65,3 +65,7 @@ st.map(filtered_data)
 
 # 用到知识点： 一级标题 ，二级标题 ，复选框，表格，直方图， 滑块，地图，
 # （更多小组件查看api，要把所有的小组件都用一遍。）
+
+import streamlit as st
+if "shared" not in st.session_state:
+   st.session_state["shared"] = True
