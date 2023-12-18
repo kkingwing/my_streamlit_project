@@ -5,16 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c64be39-1096-4ae0-8723-7d8269663bfe" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/learn_1_write_and_magic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/learn_2_text_elems.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/learn_3a_data_dataframe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/learn_3b_data_editor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/learn_3c_df_column_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/learn_3d_st_table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/learn_3e_st_metric.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/learn_3f_st_json.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/My_Streamlit_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/My_Streamlit_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +123,7 @@
       <updated>1702872216517</updated>
       <workItem from="1702872217886" duration="17326000" />
       <workItem from="1702893085233" duration="130000" />
-      <workItem from="1702893665848" duration="499000" />
+      <workItem from="1702893665848" duration="606000" />
     </task>
     <servers />
   </component>
