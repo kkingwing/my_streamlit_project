@@ -29,8 +29,8 @@ data = load_data(10000)
 data_load_state.text("Done! (using st.cache_data)")
 
 # 1.2.1 原始数据查看（确认数据无误）
-st.subheader('Raw data')  # 子标题（二级标题）
-st.write(data)
+# st.subheader('Raw data')  # 子标题（二级标题）
+# st.write(data)
 # 1.2.2 使用复选框查看
 if st.checkbox('show raw data'):
     st.subheader('Raw data')
@@ -45,15 +45,15 @@ st.bar_chart(hist_values)
 
 
 # 3. 地图绘制
-st.subheader('Map of all pickups')
-st.map(data)
-# 3.2 分析集中在17点在地图特点
-st.subheader('Map of 17')
-hour_to_filter = 17
-filtered_data = data[data[DATE_COLUMN].dt.hour == hour_to_filter]
-st.subheader(f'Map of all pickups at {hour_to_filter}:00')
-st.map(filtered_data)
-# 复制的地图绘制查看（st.pydeck_chart）
+# st.subheader('Map of all pickups')
+# st.map(data)
+# # 3.2 分析集中在17点在地图特点
+# st.subheader('Map of 17')
+# hour_to_filter = 17
+# filtered_data = data[data[DATE_COLUMN].dt.hour == hour_to_filter]
+# st.subheader(f'Map of all pickups at {hour_to_filter}:00')
+# st.map(filtered_data)
+# # 复制的地图绘制查看（st.pydeck_chart）
 
 # 3.3 使用小组件实时更新小时（将固定的变量，使用「组件」来互动输入）
 st.subheader('Map of slider')
