@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c64be39-1096-4ae0-8723-7d8269663bfe" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/images/flower.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/测试音频.oga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/learn_4_chart_elms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/learn_5_input_widgets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/learn_6_media_elms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/learn_1_write_and_magic.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_1_write_and_magic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/learn_2_text_elems.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_2_text_elems.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/learn_3a_data_dataframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_3a_data_dataframe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/learn_3b_data_editor.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_3b_data_editor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/learn_3c_df_column_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_3c_df_column_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/learn_3d_st_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_3d_st_table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/learn_3e_st_metric.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_3e_st_metric.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/learn_3f_st_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_3f_st_json.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +70,7 @@
       <recent name="D:\Code\My_Streamlit_project" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\my_streamlit_project\learn" />
       <recent name="D:\Code\my_streamlit_project\pages\测试目录 " />
       <recent name="D:\Code\my_streamlit_project\pages" />
     </key>
@@ -124,6 +138,9 @@
       <workItem from="1702872217886" duration="17326000" />
       <workItem from="1702893085233" duration="130000" />
       <workItem from="1702893665848" duration="606000" />
+      <workItem from="1702947574705" duration="1023000" />
+      <workItem from="1702951061370" duration="7239000" />
+      <workItem from="1702968107171" duration="11335000" />
     </task>
     <servers />
   </component>
