@@ -5,20 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c64be39-1096-4ae0-8723-7d8269663bfe" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/images/flower.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/测试音频.oga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn/learn_4_chart_elms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/learn_5_input_widgets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/learn_6_media_elms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.streamlit/secrets.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/learn_7_layouts_containers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/learn_8_chat_elms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/learn_9_status_elms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/learn_p10_control_flow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/learn_p11_setpage_echo_help.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/learn_p12_session_state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/learn_p13_optimize_performance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/learn_p14_sql_connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secrets.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_1_write_and_magic.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_1_write_and_magic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_2_text_elems.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_2_text_elems.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_3a_data_dataframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_3a_data_dataframe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_3b_data_editor.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_3b_data_editor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_3c_df_column_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_3c_df_column_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_3d_st_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_3d_st_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_3e_st_metric.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_3e_st_metric.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_3f_st_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_3f_st_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hello.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/1__Plotting_Demo.py" beforePathEscaped="$PROJECT_DIR$/pages/1_📈_Plotting_Demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/1__Plotting_Demo.py" afterPathEscaped="$PROJECT_DIR$/learn/1_📈_Plotting_Demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/2__Mapping_Demo.py" beforePathEscaped="$PROJECT_DIR$/pages/2_🌍_Mapping_Demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/2__Mapping_Demo.py" afterPathEscaped="$PROJECT_DIR$/learn/2_🌍_Mapping_Demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/3__DataFrame_Demo.py" beforePathEscaped="$PROJECT_DIR$/pages/3_📊_DataFrame_Demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/3__DataFrame_Demo.py" afterPathEscaped="$PROJECT_DIR$/learn/3_📊_DataFrame_Demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/learn_5_input_widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_5_input_widgets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/learn_6_media_elms.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_6_media_elms.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,11 +75,11 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\my_streamlit_project\learn" />
-      <recent name="D:\Code\my_streamlit_project\pages\测试目录 " />
       <recent name="D:\Code\my_streamlit_project\pages" />
+      <recent name="D:\Code\my_streamlit_project\pages\测试目录 " />
     </key>
   </component>
-  <component name="RunManager" selected="Python.page2">
+  <component name="RunManager" selected="Python.learn_p12_session_state">
     <configuration name="查看版本" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="My_Streamlit_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,6 +94,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/查看版本.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="learn_p10_control_flow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="My_Streamlit_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pages" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Code\my_streamlit_project\pages\learn_p10_control_flow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="learn_p12_session_state" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="My_Streamlit_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pages" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Code\my_streamlit_project\pages\learn_p12_session_state.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,6 +170,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.learn_p12_session_state" />
+        <item itemvalue="Python.learn_p10_control_flow" />
         <item itemvalue="Python.page2" />
         <item itemvalue="Python.查看版本" />
       </list>
@@ -140,7 +190,9 @@
       <workItem from="1702893665848" duration="606000" />
       <workItem from="1702947574705" duration="1023000" />
       <workItem from="1702951061370" duration="7239000" />
-      <workItem from="1702968107171" duration="11335000" />
+      <workItem from="1702968107171" duration="11699000" />
+      <workItem from="1703032996978" duration="1467000" />
+      <workItem from="1703034809043" duration="25972000" />
     </task>
     <servers />
   </component>
@@ -152,6 +204,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/My_Streamlit_project$page2.coverage" NAME="page2 覆盖结果" MODIFIED="1702878468022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pages" />
+    <SUITE FILE_PATH="coverage/my_streamlit_project$learn_ten_10_control_flow.coverage" NAME="learn_ten_10_control_flow 覆盖结果" MODIFIED="1703051138580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pages" />
     <SUITE FILE_PATH="coverage/My_Streamlit_project$.coverage" NAME="查看版本 覆盖结果" MODIFIED="1702873699711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/my_streamlit_project$learn_p12_state_management.coverage" NAME="learn_p12_state_management 覆盖结果" MODIFIED="1703055962923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pages" />
   </component>
 </project>
