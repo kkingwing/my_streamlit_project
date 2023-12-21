@@ -5,17 +5,15 @@ import streamlit as st
 
 """例1 直接写明文的连接"""
 
-# con = create_engine('mysql://root:huanqlu0123@39.98.120.220:3306/spider?charset=utf8')
+# con = create_engine('mysql://root:pass@address:port/db?charset=utf8')
 
-con_url = "mysql://root:huanqlu0123@39.98.120.220:3306/spider?charset=utf8"
-
-conn = st.connection(
-    name="阿里云-ECS",  # 可自定义，连接的标识
-    type="sql",  # 固定写法（不可变）
-    url=con_url,  # url固定形参（不可变）
-)
-df = conn.query("select * from crawl_ip")  # .query快速查询，同样使用了cache缓存技术
-st.dataframe(df)
+# conn = st.connection(
+#     name="阿里云-ECS",  # 可自定义，连接的标识
+#     type="sql",  # 固定写法（不可变）
+#     url=con_url,  # url固定形参（不可变）
+# )
+# df = conn.query("select * from crawl_ip")  # .query快速查询，同样使用了cache缓存技术
+# st.dataframe(df)
 
 """例2 连接配置文件.toml"""
 # 1. 手动在根目录新建「.streamlit」文件夹，及其下级文件「secrets.toml」

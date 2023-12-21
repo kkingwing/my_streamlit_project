@@ -5,24 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c64be39-1096-4ae0-8723-7d8269663bfe" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.streamlit/secrets.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/learn_7_layouts_containers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/learn_8_chat_elms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/learn_9_status_elms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/learn_p10_control_flow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/learn_p11_setpage_echo_help.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/learn_p12_session_state.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/learn_p13_optimize_performance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/learn_p14_sql_connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/secrets.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hello.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/1__Plotting_Demo.py" beforePathEscaped="$PROJECT_DIR$/pages/1_📈_Plotting_Demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/1__Plotting_Demo.py" afterPathEscaped="$PROJECT_DIR$/learn/1_📈_Plotting_Demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/2__Mapping_Demo.py" beforePathEscaped="$PROJECT_DIR$/pages/2_🌍_Mapping_Demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/2__Mapping_Demo.py" afterPathEscaped="$PROJECT_DIR$/learn/2_🌍_Mapping_Demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/3__DataFrame_Demo.py" beforePathEscaped="$PROJECT_DIR$/pages/3_📊_DataFrame_Demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/3__DataFrame_Demo.py" afterPathEscaped="$PROJECT_DIR$/learn/3_📊_DataFrame_Demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_5_input_widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_5_input_widgets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_6_media_elms.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_6_media_elms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/learn_p14_sql_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learn_p14_sql_connection.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +177,9 @@
       <workItem from="1702951061370" duration="7239000" />
       <workItem from="1702968107171" duration="11699000" />
       <workItem from="1703032996978" duration="1467000" />
-      <workItem from="1703034809043" duration="25972000" />
+      <workItem from="1703034809043" duration="26576000" />
+      <workItem from="1703067031708" duration="106000" />
+      <workItem from="1703120022144" duration="899000" />
     </task>
     <servers />
   </component>
