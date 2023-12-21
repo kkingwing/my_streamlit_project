@@ -27,11 +27,11 @@ st.dataframe(df2)
 
 
 """失效重连  .reset"""
-import streamlit as st
-
-conn = st.connection("mydb")
-
-# Reset the connection before using it if it isn't healthy
-st.write("Note: is_healthy() 不是一个真方法，这里只是举例")
-if not conn.is_healthy():
-    conn.reset()
+# import streamlit as st
+#
+# conn = st.connection("mydb")
+#
+# # Reset the connection before using it if it isn't healthy
+# st.write("Note: is_healthy() 不是一个真方法，这里只是举例")
+# if not conn.is_healthy():
+#     conn.reset()

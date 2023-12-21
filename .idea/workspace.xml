@@ -7,9 +7,7 @@
     <list default="true" id="6c64be39-1096-4ae0-8723-7d8269663bfe" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.streamlit/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/.streamlit/secrets.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/learn_p14_sql_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learn_p14_sql_connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secrets.toml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +179,7 @@
       <workItem from="1703032996978" duration="1467000" />
       <workItem from="1703034809043" duration="26576000" />
       <workItem from="1703067031708" duration="106000" />
-      <workItem from="1703120022144" duration="3106000" />
+      <workItem from="1703120022144" duration="4582000" />
     </task>
     <servers />
   </component>
