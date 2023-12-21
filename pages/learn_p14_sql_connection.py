@@ -16,7 +16,7 @@ import streamlit as st
 # st.dataframe(df)
 
 """例2 连接配置文件.toml"""
-# 1. 手动在根目录新建「.streamlit」文件夹，及其下级文件「config.toml」
+# 1. 手动在根目录新建「.streamlit」文件夹，及其下级文件「secrets.toml」
 # 2. 配置（见文件）
 # 3. 引用：
 
