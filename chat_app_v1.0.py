@@ -1,4 +1,7 @@
-# 本模块：1、需要gpt-api有额度，2、需要开全局
+# 名称：chat_app_v1.0.py
+# 作用：不使用梯子而访问GPT。
+# 本模块：1、需要gpt-api有额度，2、需要开全局。 若本地访问不开全局vpn，会访问超时。
+# 已布署至「streamlit分享」，可以不使用梯子而进行访问分享链。
 
 import streamlit as st
 from openai import OpenAI

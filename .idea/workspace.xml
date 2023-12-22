@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c64be39-1096-4ae0-8723-7d8269663bfe" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/其它/gpt_chat_v1.0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat_app_v0.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/其它/chat_app_v0.1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chat_app_v1.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat_app_v1.0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber_pickups.py" beforeDir="false" afterPath="$PROJECT_DIR$/其它/uber_pickups.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +51,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "two.files.diff.last.used.file": "D:/Code/my_streamlit_project/gpt_chat_v1.0.py",
     "vue.rearranger.settings.migration": "true"
@@ -210,7 +209,7 @@
       <workItem from="1703067031708" duration="106000" />
       <workItem from="1703120022144" duration="9901000" />
       <workItem from="1703137436683" duration="9344000" />
-      <workItem from="1703207280798" duration="10733000" />
+      <workItem from="1703207280798" duration="14456000" />
     </task>
     <servers />
   </component>

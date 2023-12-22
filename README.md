@@ -35,7 +35,7 @@
     pip install -r requirements.txt
     ```
 
-    这将自动安装 `streamlit`、`pandas` 和 `numpy`，
+    这将自动安装 `streamlit`、`pandas` 和 `numpy`……等必须的库。
 
 
 4. **运行 Streamlit 应用程序：**
