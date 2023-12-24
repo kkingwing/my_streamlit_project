@@ -5,14 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c64be39-1096-4ae0-8723-7d8269663bfe" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/Home_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/1_爬虫调度.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/2_数据分析.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/3_信息结果.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/My_Streamlit_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/My_Streamlit_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -220,6 +212,7 @@
       <workItem from="1703207280798" duration="14456000" />
       <workItem from="1703300462590" duration="1202000" />
       <workItem from="1703386733337" duration="6546000" />
+      <workItem from="1703414432414" duration="1219000" />
     </task>
     <servers />
   </component>
