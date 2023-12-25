@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c64be39-1096-4ae0-8723-7d8269663bfe" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/app_schedules.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/main_schedule_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/测试样表.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/My_Streamlit_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/My_Streamlit_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Home_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat_app_v1.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat_app_v1.0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn/learn_5_input_widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learn_5_input_widgets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/1_爬虫调度.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/1_爬虫调度.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,8 +64,8 @@
       <recent name="D:\Code\My_Streamlit_project" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\my_streamlit_project\pages" />
       <recent name="D:\Code\my_streamlit_project\learn" />
+      <recent name="D:\Code\my_streamlit_project\pages" />
       <recent name="D:\Code\my_streamlit_project\其它" />
       <recent name="D:\Code\my_streamlit_project\pages\测试目录 " />
     </key>
@@ -223,7 +214,7 @@
       <workItem from="1703300462590" duration="1202000" />
       <workItem from="1703386733337" duration="6546000" />
       <workItem from="1703414432414" duration="1219000" />
-      <workItem from="1703484672747" duration="11468000" />
+      <workItem from="1703484672747" duration="11833000" />
     </task>
     <servers />
   </component>

@@ -28,7 +28,7 @@ with st.container():
     if on_1:
         col3.write(on_1)
         run_0()
-        st.success('运行完成')
+        st.success('执行完毕.')
 
 # 2.排行榜
 with st.container():
@@ -39,7 +39,7 @@ with st.container():
     if on_1:
         col3.write(on_1)
         run_1()
-        st.success('运行完成')
+        st.success('执行完毕.')
 
 # 暂放，未用。
 st.sidebar.selectbox('选择调度', ['复制目标表格', '排行榜'])
