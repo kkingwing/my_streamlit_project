@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c64be39-1096-4ae0-8723-7d8269663bfe" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/images/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bravehonest_celestial_style_librasign_symbol_4538f857-4c19-4ab0-b9e4-4d342a5e6fd8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bravehonest_celestial_style_librasign_symbol_c00cfd8c-d45f-4c11-bd06-98991231e93a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bravehonest_celestial_style_librasign_symbol_f4756254-6a36-4551-a8df-159607eb49ef.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bravehonest_logo_for_cake_logo_design_UI_design_simple_details__3786ee6d-d773-4bee-aaf2-8859f0a23456.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bravehonest_logo_for_cake_logo_design_UI_design_simple_details__855b04ca-80a5-4bc6-9d12-c335ba1abcb5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bravehonest_logo_for_cake_logo_design_UI_design_simple_details__d0dc704e-9812-47df-8f46-28263d0b1caa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bravehonest_logo_for_cake_logo_design_UI_design_simple_details__dd544f03-a050-4cec-b751-61287d431de8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/5_图片滑动.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/1_爬虫调度.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/1_爬虫调度.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pip" beforeDir="false" afterPath="$PROJECT_DIR$/pages/4_图片显示.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/查看版本.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +225,7 @@
       <workItem from="1703300462590" duration="1202000" />
       <workItem from="1703386733337" duration="6546000" />
       <workItem from="1703414432414" duration="1219000" />
-      <workItem from="1703484672747" duration="11833000" />
+      <workItem from="1703484672747" duration="13220000" />
     </task>
     <servers />
   </component>
