@@ -11,7 +11,7 @@ st.title("ChatGPT-like clone")
 # 调用配置文件的openai的key # 在toml中需要写一个[openai再调用，否则会识别到另一个前面设置过的[]sql中
 client = OpenAI(api_key=st.secrets.openai.OPENAI_API_KEY)
 
-# 设置模型 (标准回调函数写法，设置一个 键）
+# 设置模型 (标准回调函数写法，如无键，设置键）
 if "openai_model" not in st.session_state:
     st.session_state["openai_model"] = "gpt-3.5-turbo"
 
