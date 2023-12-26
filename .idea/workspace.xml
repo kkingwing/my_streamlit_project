@@ -5,19 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c64be39-1096-4ae0-8723-7d8269663bfe" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/images/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bravehonest_celestial_style_librasign_symbol_4538f857-4c19-4ab0-b9e4-4d342a5e6fd8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bravehonest_celestial_style_librasign_symbol_c00cfd8c-d45f-4c11-bd06-98991231e93a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bravehonest_celestial_style_librasign_symbol_f4756254-6a36-4551-a8df-159607eb49ef.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bravehonest_logo_for_cake_logo_design_UI_design_simple_details__3786ee6d-d773-4bee-aaf2-8859f0a23456.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bravehonest_logo_for_cake_logo_design_UI_design_simple_details__855b04ca-80a5-4bc6-9d12-c335ba1abcb5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bravehonest_logo_for_cake_logo_design_UI_design_simple_details__d0dc704e-9812-47df-8f46-28263d0b1caa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bravehonest_logo_for_cake_logo_design_UI_design_simple_details__dd544f03-a050-4cec-b751-61287d431de8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/5_图片滑动.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/6_资讯卡片.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/My_Streamlit_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/My_Streamlit_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pip" beforeDir="false" afterPath="$PROJECT_DIR$/pages/4_图片显示.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/查看版本.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat_app_v1.0.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/learn_1_write_and_magic.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learn_1_write_and_magic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/learn_2_text_elems.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learn_2_text_elems.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/learn_3a_data_dataframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learn_3a_data_dataframe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/learn_3b_data_editor.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learn_3b_data_editor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/learn_3c_df_column_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learn_3c_df_column_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/learn_3d_st_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learn_3d_st_table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/learn_3e_st_metric.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learn_3e_st_metric.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/learn_3f_st_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learn_3f_st_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/learn_4_chart_elms.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learn_4_chart_elms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/learn_5_input_widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learn_5_input_widgets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/learn_6_media_elms.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learn_6_media_elms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/learn_7_layouts_containers.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learn_7_layouts_containers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/learn_8_chat_elms.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learn_8_chat_elms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/learn_9_status_elms.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learn_9_status_elms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/learn_p10_control_flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learn_p10_control_flow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/learn_p11_setpage_echo_help.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learn_p11_setpage_echo_help.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/learn_p12_session_state.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learn_p12_session_state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/learn_p13_optimize_performance.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learn_p13_optimize_performance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/learn_p14_sql_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/learn_p14_sql_connection.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +47,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -58,7 +72,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/my_streamlit_project&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Code/My_Streamlit_Projects/chatgpt_like_clone&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -75,6 +89,7 @@
       <recent name="D:\Code\My_Streamlit_project" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\My_Streamlit_Projects\my_streamlit_project\pages" />
       <recent name="D:\Code\my_streamlit_project\learn" />
       <recent name="D:\Code\my_streamlit_project\pages" />
       <recent name="D:\Code\my_streamlit_project\其它" />
@@ -225,7 +240,11 @@
       <workItem from="1703300462590" duration="1202000" />
       <workItem from="1703386733337" duration="6546000" />
       <workItem from="1703414432414" duration="1219000" />
-      <workItem from="1703484672747" duration="13220000" />
+      <workItem from="1703484672747" duration="13373000" />
+      <workItem from="1703552823245" duration="1088000" />
+      <workItem from="1703554103441" duration="1809000" />
+      <workItem from="1703561740848" duration="4183000" />
+      <workItem from="1703581574632" duration="96000" />
     </task>
     <servers />
   </component>
