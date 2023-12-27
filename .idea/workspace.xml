@@ -6,29 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6c64be39-1096-4ae0-8723-7d8269663bfe" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/flower.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/3_信息结果.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/3_资讯卡片.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/6_资讯卡片.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_1_write_and_magic.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_1_write_and_magic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_2_text_elems.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_2_text_elems.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_3a_data_dataframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_3a_data_dataframe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_3b_data_editor.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_3b_data_editor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_3c_df_column_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_3c_df_column_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_3d_st_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_3d_st_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_3e_st_metric.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_3e_st_metric.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_3f_st_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_3f_st_json.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_4_chart_elms.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_4_chart_elms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_5_input_widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_5_input_widgets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_6_media_elms.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_6_media_elms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_7_layouts_containers.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_7_layouts_containers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_8_chat_elms.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_8_chat_elms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_9_status_elms.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_9_status_elms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_p10_control_flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_p10_control_flow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_p11_setpage_echo_help.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_p11_setpage_echo_help.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_p12_session_state.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_p12_session_state.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_p13_optimize_performance.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_p13_optimize_performance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/learn_p14_sql_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/learn_p14_sql_connection.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +223,8 @@
       <workItem from="1703561740848" duration="4183000" />
       <workItem from="1703581574632" duration="96000" />
       <workItem from="1703638849074" duration="1792000" />
-      <workItem from="1703642894324" duration="59000" />
+      <workItem from="1703642894324" duration="955000" />
+      <workItem from="1703651922757" duration="711000" />
     </task>
     <servers />
   </component>
