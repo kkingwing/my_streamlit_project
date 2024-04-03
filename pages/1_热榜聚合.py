@@ -5,67 +5,100 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 CON = create_engine("mysql://root:huanqlu0123@39.98.120.220:3306/spider?charset=utf8mb4")
-sql = 'SELECT * FROM `aggregate_hot_list`'
-df = pd.read_sql(sql=sql, con=CON)
-today = datetime.now().strftime("%Y-%m-%d")
-df_zhihu = df[(df['平台'] == '知乎') & (df['记录日期'] == today)][:10]
-df_weibo = df[(df['平台'] == '微博') & (df['记录日期'] == today)][:10]
-titles = list(df_zhihu['标题'])
-urls = list(df_zhihu['url'])
-hots = list(df_zhihu['热度'])
-md_zhihu_all = ''
-# for title,url in zip(titles,urls):
-#     md_zhihu = f"[{title}]({url})\n"
-#     md_zhihu_all += md_zhihu
-
+TODAY = datetime.now().strftime("%Y-%m-%d")
 
 st.set_page_config(layout="wide")
 
-
-st.subheader(today+'热榜聚合')
+st.subheader(TODAY + '热榜聚合')
 st.divider()
 
-col1, col2, col3, col4 = st.columns(4)
-with col1:
-    with st.container(border=True):
-        st.write('知乎')
-        # st.divider()
-        for i,(title, url,hot) in enumerate(zip(titles, urls,hots)):
-            md_zhihu = f"{i+1}. [{title}]({url})  \n{hot}\n"
-            st.write(md_zhihu)
-        st.divider()
-        st.write("""
-        思考：  
-        1.将「商品广告」打包给第三方做方案的做法已经成熟，:red[软硬广同时做+卖货]的套路。  
-        2.广告文案：借流量（联名IP、请明星/KOL/KOC），节日节点做广告，文案场景化，借助AI。
-        """)
+# === 读取sql数据作为「预置数据」以备使用 ===
+sql = 'SELECT * FROM `aggregate_hot_list`'
+df = pd.read_sql(sql=sql, con=CON)
 
-with col2:
-    with st.container(border=True):
-        st.write('羊毛')
-        st.divider()
-        st.write(f"""
-                    1.  12.27： 百度地图搜 「打车预言家」，分享一下然后答题，答案是 :red[星空]，**有30打车券**
+# 1. 读取sql的「知乎」热榜数据
+df_zhihu = df[(df['平台'] == '知乎') & (df['记录日期'] == TODAY)][:]
+zh_titles = list(df_zhihu['标题'])
+zh_urls = list(df_zhihu['url'])
+zh_hots = list(df_zhihu['热度'])
 
-                    """
-                 )
-with col3:
-    with st.container(border=True):
-        st.write('暂无')
-        st.divider()
-        # st.write(f"""
-        #             1. :red[“**硬广、软文、营销活动**”]（“曝光、心智、转化”）三步骤同步进行的特征明显，协同模式成为主流。
-        #             2. 从数据上看，:blue[「**节点营销、新品营销、线下营销、联名/跨界营销、明星营销**」]成为核心关键词，数量分布分别达到31.1%、27.6%、20.9%、20.3%、18.7%。这当中，
-        #             :red[「**联名、流量代言、多元节点、主题情绪化、AI营销**」]“五大模式”异军突起。
-        #             """
-        #          )
-with col4:
-    with st.container(border=True):
-        st.write('暂无')
-        st.divider()
-        # st.write(f"""
-        #             1. :red[“**硬广、软文、营销活动**”]（“曝光、心智、转化”）三步骤同步进行的特征明显，协同模式成为主流。
-        #             2. 从数据上看，:blue[「**节点营销、新品营销、线下营销、联名/跨界营销、明星营销**」]成为核心关键词，数量分布分别达到31.1%、27.6%、20.9%、20.3%、18.7%。这当中，
-        #             :red[「**联名、流量代言、多元节点、主题情绪化、AI营销**」]“五大模式”异军突起。
-        #             """
-        #          )
+# 2.读取sql的「微博」热榜数据
+df_weibo = df[(df['平台'] == '微博') & (df['记录日期'] == TODAY)][:]
+wb_titles = list(df_weibo['标题'])
+wb_urls = list(df_weibo['url'])
+wb_hots = list(df_weibo['热度'])
+
+
+def to_wan_hot(hot):
+    """
+    将微博的数字转换为万的单位并加上文本 "万热度"
+
+    Args:
+        hot: 数字型文本
+
+    Returns:
+        str: 转换后的文本
+    """
+    if not hot:
+        return ""
+    try:
+        hot_num = float(hot)
+        if hot_num >= 10000:
+            return f"{hot_num / 10000:.1f} 万热度"
+        else:
+            return f"{hot:.0f}"
+    except ValueError:
+        return hot
+
+
+# === 以下为「页面布局」及「读取预置数据」。
+# st.tabs() # 标签布局
+tab_hotlist, tab3 = st.tabs(["热榜聚合", "Owl"])
+
+# 布局： tab标签
+with tab_hotlist:
+    col1, col2 = st.columns([0.65, 0.35])  # 分组栏
+    # === 分组栏 ===
+    with col1:
+        # === 容器 ===
+        with st.container(border=True, height=520):
+            st.caption('知乎')
+            for i, (title, url, hot) in enumerate(zip(zh_titles, zh_urls, zh_hots)):
+                md_zhihu = f"{i + 1}. [{title}]({url})  :red[{hot}]\n"
+                st.write(md_zhihu)
+            st.divider()
+
+    with col2:
+        with st.container(border=True, height=520):
+            st.caption('微博')
+            # st.divider()
+            for i, (title, url, hot) in enumerate(zip(wb_titles, wb_urls, wb_hots)):
+                md_zhihu = f"{i + 1}. [{title}]({url})  :red[{to_wan_hot(hot)}]\n"
+                st.write(md_zhihu)
+            st.divider()
+
+with tab3:
+    st.header("An owl")
+    st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
+
+# with tab_test:
+#     # 1. 读取sql的「知乎」热榜数据
+#     df_zhihu = df[(df['平台'] == '知乎') & (df['记录日期'] == TODAY)][:10]
+#     zh_titles = list(df_zhihu['标题'])
+#     zh_urls = list(df_zhihu['url'])
+#     zh_hots = list(df_zhihu['热度'])
+#     with st.container(border=True):
+#         st.markdown('<h3>知乎</h3>', unsafe_allow_html=True)
+#         st.dataframe(data=df_zhihu,  # 呈现的df
+#                      column_order=('标题',  '热度','url',),  # df要显示的列
+#                      use_container_width=True,  # 使用父容器宽度
+#                      hide_index=True,  # 隐藏索引
+#                      height=500,  # 整体高度 ，热榜呈现队所有50条内容，但在这里限制可度时可用。
+#                      # width=400,  # 宽度
+#                      column_config={  # 配置具体列的呈现样式
+#                          "url": st.column_config.LinkColumn('url',
+#                                                             # display_text="Open profile"
+#                                                             display_text='跳转',
+#                                                             ),
+#                      },
+#                      )
