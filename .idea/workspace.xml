@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c64be39-1096-4ae0-8723-7d8269663bfe" name="更改" comment="" />
+    <list default="true" id="6c64be39-1096-4ae0-8723-7d8269663bfe" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -252,7 +254,7 @@
       <workItem from="1712135845936" duration="29000" />
       <workItem from="1712471836028" duration="8055000" />
       <workItem from="1712481432207" duration="2488000" />
-      <workItem from="1712483937667" duration="61000" />
+      <workItem from="1712483937667" duration="126000" />
     </task>
     <servers />
   </component>
