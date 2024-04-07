@@ -1,6 +1,8 @@
 import streamlit as st
 from datetime import datetime
 
+import pandas as pd
+
 # st.set_page_config(layout="wide")  # 必须在开头，且第一个调用
 
 CON = st.connection("mydb", type="sql", autocommit=True)

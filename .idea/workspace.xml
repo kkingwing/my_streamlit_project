@@ -7,6 +7,7 @@
     <list default="true" id="6c64be39-1096-4ae0-8723-7d8269663bfe" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/1_热榜聚合.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/1_热榜聚合.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +256,7 @@
       <workItem from="1712135845936" duration="29000" />
       <workItem from="1712471836028" duration="8055000" />
       <workItem from="1712481432207" duration="2488000" />
-      <workItem from="1712483937667" duration="1215000" />
+      <workItem from="1712483937667" duration="1346000" />
     </task>
     <servers />
   </component>
