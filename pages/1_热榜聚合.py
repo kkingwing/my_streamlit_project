@@ -4,17 +4,21 @@ from datetime import datetime
 import pandas as pd
 from sqlalchemy import create_engine
 
-CON = create_engine("mysql://root:huanqlu0123@39.98.120.220:3306/spider?charset=utf8mb4")
+CON = st.connection("mydb", type="sql", autocommit=True)
+print(CON)
 TODAY = datetime.now().strftime("%Y-%m-%d")
 
 st.set_page_config(layout="wide")
 
-st.subheader(TODAY + '热榜聚合')
+st.subheader(' 📰**热榜聚合** ' + TODAY)
+# st.caption(TODAY)
+
 st.divider()
 
-# === 读取sql数据作为「预置数据」以备使用 ===
+# === 读取sql数据作为「预置数据」以备使用 , 下面的写法是st专用方法===
 sql = 'SELECT * FROM `aggregate_hot_list`'
-df = pd.read_sql(sql=sql, con=CON)
+# df = pd.read_sql(sql=sql, con=CON)  #st不这么调用，注释掉
+df = CON.query(sql)
 
 # 1. 读取sql的「知乎」热榜数据
 df_zhihu = df[(df['平台'] == '知乎') & (df['记录日期'] == TODAY)][:]
@@ -27,6 +31,18 @@ df_weibo = df[(df['平台'] == '微博') & (df['记录日期'] == TODAY)][:]
 wb_titles = list(df_weibo['标题'])
 wb_urls = list(df_weibo['url'])
 wb_hots = list(df_weibo['热度'])
+
+# 3.读取sql的「百度」热榜数据
+df_baidu = df[(df['平台'] == '百度') & (df['记录日期'] == TODAY)][:]
+baidu_titles = list(df_baidu['标题'])
+baidu_urls = list(df_baidu['url'])
+baidu_hots = list(df_baidu['热度'])
+
+# 4.读取sql的「IT之家」热榜数据
+df_ithome = df[(df['平台'] == 'IT之家') & (df['记录日期'] == TODAY)][:]
+ithome_titles = list(df_ithome['标题'])
+ithome_urls = list(df_ithome['url'])
+ithome_hots = list(df_ithome['热度'])
 
 
 def to_wan_hot(hot):
@@ -53,18 +69,18 @@ def to_wan_hot(hot):
 
 # === 以下为「页面布局」及「读取预置数据」。
 # st.tabs() # 标签布局
-tab_hotlist, tab3 = st.tabs(["热榜聚合", "Owl"])
+tab_hotlist, tab3 = st.tabs(["热搜榜单", "Owl"])
 
 # 布局： tab标签
 with tab_hotlist:
-    col1, col2 = st.columns([0.65, 0.35])  # 分组栏
+    col1, col2, col3, col4 = st.columns([0.35, 0.35, 0.35, 0.35])  # 分组栏
     # === 分组栏 ===
     with col1:
         # === 容器 ===
         with st.container(border=True, height=520):
             st.caption('知乎')
             for i, (title, url, hot) in enumerate(zip(zh_titles, zh_urls, zh_hots)):
-                md_zhihu = f"{i + 1}. [{title}]({url})  :red[{hot}]\n"
+                md_zhihu = f"{i + 1}. [{title}]({url})  :red[{to_wan_hot(hot)}]\n"
                 st.write(md_zhihu)
             st.divider()
 
@@ -73,6 +89,24 @@ with tab_hotlist:
             st.caption('微博')
             # st.divider()
             for i, (title, url, hot) in enumerate(zip(wb_titles, wb_urls, wb_hots)):
+                md_zhihu = f"{i + 1}. [{title.strip('#')}]({url})  :red[{to_wan_hot(hot)}]\n"
+                st.write(md_zhihu)
+            st.divider()
+
+    with col3:
+        with st.container(border=True, height=520):
+            st.caption('百度')
+            # st.divider()
+            for i, (title, url, hot) in enumerate(zip(baidu_titles, baidu_urls, baidu_hots)):
+                md_zhihu = f"{i + 1}. [{title}]({url})  :red[{to_wan_hot(hot)}]\n"
+                st.write(md_zhihu)
+            st.divider()
+
+    with col4:
+        with st.container(border=True, height=520):
+            st.caption('IT之家')
+            # st.divider()
+            for i, (title, url, hot) in enumerate(zip(ithome_titles, ithome_urls, ithome_hots)):
                 md_zhihu = f"{i + 1}. [{title}]({url})  :red[{to_wan_hot(hot)}]\n"
                 st.write(md_zhihu)
             st.divider()

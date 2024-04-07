@@ -18,10 +18,10 @@ with st.sidebar:
 
 st.markdown(
     """
-    这是一个总控页面，作用是「**调度控制**」以及「**数据分析**」展示。
-    选择「**左侧页面**」进入详情查看。
+    这是一个总控页面，作用是「**可视化测试**」。
+    点击选择「**左侧菜单**」进入详情查看。
     ### 更多的信息：
-    - 需要协助：[先查询吧](https://www.google.com)
-    - 有不懂的：查看[streamlit文档](https://docs.streamlit.io)
+    - 需要协助：[先google一下吧](https://www.google.com)
+    - 查看：[streamlit官方文档](https://docs.streamlit.io)
     """
 )

@@ -38,14 +38,15 @@ import streamlit as st
 
 
 4.常用图表
-   st.area_chart
-   st.bar_chart
-   st.line_chart
-   st.scatter_chart
-   st.pyplot
-   st.altair_chart
-   st.map
+   st.area_chart  面积图
+   st.bar_chart   柱状图
+   st.line_chart  折线图
+   st.scatter_chart  散点图
+   st.map  地理地图
+   st.pyplot 直方图
 
+   # 使用第三方库的图表
+   st.altair_chart 使用altair库的图表
    st.plotly_chart  # python库，交互式图表库 √ （使用这个）
    st.bokeh_chart # python库，交互式图表库
    （应用场景区别：重点是构建交互式Web应用程序，Bokeh 可能更适合。若主要关注数据科学和分析，Plotly 可能是更好的选择。）
