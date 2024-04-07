@@ -3,7 +3,17 @@ from datetime import datetime
 
 import pandas as pd
 
-# st.set_page_config(layout="wide")  # 必须在开头，且第一个调用
+st.set_page_config(
+    page_title='热搜榜聚合',  # 浏览器的标签标题，
+    page_icon='🔥',  # 标签图标，支持emoji
+    layout='wide',  # 主区域布局，默认为「居中的centered「，也可以选为「布满的wide」
+    initial_sidebar_state='auto',
+    menu_items={  # 右上角文字链接，键为固定字符串
+        'Get Help': 'https://www.extremelycoolapp.com/help',
+    }
+
+)
+st.title('热搜榜聚合')
 
 CON = st.connection("mydb", type="sql", autocommit=True)
 print(CON)
