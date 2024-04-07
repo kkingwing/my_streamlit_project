@@ -13,7 +13,7 @@ st.set_page_config(
     }
 
 )
-st.title('热搜榜聚合')
+# st.title('热搜榜聚合')
 
 CON = st.connection("mydb", type="sql", autocommit=True)
 print(CON)
