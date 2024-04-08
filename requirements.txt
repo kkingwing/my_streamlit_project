@@ -6,3 +6,5 @@ sqlalchemy==2.0.23
 pymysql
 openai
 bs4
+pyecharts
+streamlit_echarts

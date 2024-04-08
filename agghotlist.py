@@ -6,7 +6,7 @@ import pandas as pd
 st.set_page_config(
     page_title='热搜榜聚合',  # 浏览器的标签标题，
     page_icon='🔥',  # 标签图标，支持emoji
-    layout='wide',  # 主区域布局，默认为「居中的centered「，也可以选为「布满的wide」
+    layout='centered',  # 主区域布局，默认为「居中的centered「，也可以选为「布满的wide」
     initial_sidebar_state='auto',
     menu_items={  # 右上角文字链接，键为固定字符串
         'Get Help': 'https://www.extremelycoolapp.com/help',
@@ -51,8 +51,6 @@ df_ithome = df[(df['平台'] == 'IT之家') & (df['记录日期'] == TODAY)][:]
 ithome_titles = list(df_ithome['标题'])
 ithome_urls = list(df_ithome['url'])
 ithome_hots = list(df_ithome['热度'])
-
-
 
 # 5.读取sql的「总热度」，当前热度标准不一，后需要标准化
 df_all = df[(df['记录日期'] == TODAY)][:20]
