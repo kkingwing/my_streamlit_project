@@ -53,6 +53,15 @@ ithome_urls = list(df_ithome['url'])
 ithome_hots = list(df_ithome['热度'])
 
 
+
+# 5.读取sql的「总热度」，当前热度标准不一，后需要标准化
+df_all = df[(df['记录日期'] == TODAY)][:20]
+all_platforms = list(df_all['平台'])
+all_titles = list(df_all['标题'])
+all_urls = list(df_all['url'])
+all_hots = list(df_all['热度'])
+
+
 def to_wan_hot(hot):
     """
     将微博的数字转换为万的单位并加上文本 "万热度"
@@ -77,7 +86,16 @@ def to_wan_hot(hot):
 
 # === 以下为「页面布局」及「读取预置数据」。
 # st.tabs() # 标签布局
-tab_hotlist, tab3 = st.tabs(["热搜榜单", "Owl"])
+tab_all,tab_hotlist = st.tabs(["总榜","热搜榜"])
+with tab_all:
+    # === 容器 ===
+    with st.container(border=True, height=520):
+        st.caption('总热榜')
+        for i, (title, url, hot,platform) in enumerate(zip(all_titles, all_urls, all_hots,all_platforms)):
+            md_all = f"{i + 1}. |{platform}|    [{title}]({url})  :red[{to_wan_hot(hot)}]\n"
+            st.write(md_all)
+        st.divider()
+
 
 # 布局： tab标签
 with tab_hotlist:
@@ -118,29 +136,3 @@ with tab_hotlist:
                 md_zhihu = f"{i + 1}. [{title}]({url})  :red[{to_wan_hot(hot)}]\n"
                 st.write(md_zhihu)
             st.divider()
-
-with tab3:
-    st.header("An owl")
-    st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
-
-# with tab_test:
-#     # 1. 读取sql的「知乎」热榜数据
-#     df_zhihu = df[(df['平台'] == '知乎') & (df['记录日期'] == TODAY)][:10]
-#     zh_titles = list(df_zhihu['标题'])
-#     zh_urls = list(df_zhihu['url'])
-#     zh_hots = list(df_zhihu['热度'])
-#     with st.container(border=True):
-#         st.markdown('<h3>知乎</h3>', unsafe_allow_html=True)
-#         st.dataframe(data=df_zhihu,  # 呈现的df
-#                      column_order=('标题',  '热度','url',),  # df要显示的列
-#                      use_container_width=True,  # 使用父容器宽度
-#                      hide_index=True,  # 隐藏索引
-#                      height=500,  # 整体高度 ，热榜呈现队所有50条内容，但在这里限制可度时可用。
-#                      # width=400,  # 宽度
-#                      column_config={  # 配置具体列的呈现样式
-#                          "url": st.column_config.LinkColumn('url',
-#                                                             # display_text="Open profile"
-#                                                             display_text='跳转',
-#                                                             ),
-#                      },
-#                      )
