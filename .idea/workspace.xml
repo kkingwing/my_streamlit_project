@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c64be39-1096-4ae0-8723-7d8269663bfe" name="更改" comment="" />
+    <list default="true" id="6c64be39-1096-4ae0-8723-7d8269663bfe" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agghotlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/agghotlist.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,8 +73,8 @@
       <recent name="D:\Code\my_streamlit_project" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\My_Streamlit_Projects\my_streamlit_project" />
       <recent name="D:\Code\My_Streamlit_Projects\my_streamlit_project\其它" />
+      <recent name="D:\Code\My_Streamlit_Projects\my_streamlit_project" />
       <recent name="G:\my_streamlit_project\其它" />
       <recent name="G:\my_streamlit_project\pages" />
       <recent name="D:\Code\My_Streamlit_Projects\my_streamlit_project\learn" />
@@ -259,6 +262,11 @@
       <workItem from="1712537602067" duration="4599000" />
       <workItem from="1712551088429" duration="1115000" />
       <workItem from="1712554859977" duration="2938000" />
+      <workItem from="1712641453493" duration="428000" />
+      <workItem from="1712818749140" duration="415000" />
+      <workItem from="1712819551611" duration="1388000" />
+      <workItem from="1712894180496" duration="528000" />
+      <workItem from="1713165588478" duration="9000" />
     </task>
     <servers />
   </component>
