@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c64be39-1096-4ae0-8723-7d8269663bfe" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/bi_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agghotlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/agghotlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/bi_demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +269,7 @@
       <workItem from="1713165588478" duration="131000" />
       <workItem from="1713251571922" duration="544000" />
       <workItem from="1713254710580" duration="1222000" />
-      <workItem from="1713260235897" duration="210000" />
+      <workItem from="1713260235897" duration="2115000" />
     </task>
     <servers />
   </component>

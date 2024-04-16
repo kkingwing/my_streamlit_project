@@ -8,7 +8,11 @@ from sqlalchemy import create_engine
 # === 一、连接sql（导自定义方法）  ===
 # 布署于st的写法；
 CON = st.connection("mydb", type="sql", autocommit=True)
-df = pd.read_sql_table("ods_sample_data", CON)
+# df = pd.read_sql_table("ods_sample_data", CON)
+# === 读取sql数据作为「预置数据」以备使用 , 下面的写法是st专用方法===
+sql = 'SELECT * FROM `aggregate_hot_list`'
+# df = pd.read_sql(sql=sql, con=CON)  #st不这么调用，注释掉
+df = CON.query(sql)
 
 # 本地调时的连接
 # df = conn_sql_data(table_name_="ods_sample_data")
