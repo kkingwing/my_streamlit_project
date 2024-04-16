@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c64be39-1096-4ae0-8723-7d8269663bfe" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/bi_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agghotlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/agghotlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agghotlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/agghotlist.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,44 +41,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Python.send_notice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.v1a_agg_information_api.executor&quot;: &quot;Run&quot;,
-    &quot;Python.测试.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/my_streamlit_project&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;D:/Code/my_streamlit_project/gpt_chat_v1.0.py&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.send_notice.executor": "Run",
+    "Python.v1a_agg_information_api.executor": "Run",
+    "Python.测试.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Code/My_Streamlit_Projects/my_streamlit_project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "two.files.diff.last.used.file": "D:/Code/my_streamlit_project/gpt_chat_v1.0.py",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\my_streamlit_project" />
       <recent name="D:\Code\My_Streamlit_Projects\my_streamlit_project" />
+      <recent name="G:\my_streamlit_project" />
       <recent name="D:\Code\My_Streamlit_Projects\my_streamlit_project\scripts" />
       <recent name="D:\Code\My_Streamlit_Projects\my_streamlit_project\pages" />
       <recent name="D:\Code\my_streamlit_project" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\My_Streamlit_Projects\my_streamlit_project\pages" />
       <recent name="D:\Code\My_Streamlit_Projects\my_streamlit_project\其它" />
       <recent name="D:\Code\My_Streamlit_Projects\my_streamlit_project" />
       <recent name="G:\my_streamlit_project\其它" />
       <recent name="G:\my_streamlit_project\pages" />
-      <recent name="D:\Code\My_Streamlit_Projects\my_streamlit_project\learn" />
     </key>
   </component>
   <component name="RunManager" selected="Python.测试">
@@ -266,7 +267,10 @@
       <workItem from="1712818749140" duration="415000" />
       <workItem from="1712819551611" duration="1388000" />
       <workItem from="1712894180496" duration="528000" />
-      <workItem from="1713165588478" duration="9000" />
+      <workItem from="1713165588478" duration="131000" />
+      <workItem from="1713251571922" duration="544000" />
+      <workItem from="1713254710580" duration="1222000" />
+      <workItem from="1713260235897" duration="210000" />
     </task>
     <servers />
   </component>
