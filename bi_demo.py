@@ -10,7 +10,7 @@ from sqlalchemy import create_engine
 CON = st.connection("mydb", type="sql", autocommit=True)
 # df = pd.read_sql_table("ods_sample_data", CON)
 # === 读取sql数据作为「预置数据」以备使用 , 下面的写法是st专用方法===
-sql = 'SELECT * FROM `aggregate_hot_list`'
+sql = 'SELECT * FROM `ods_sample_data`'
 # df = pd.read_sql(sql=sql, con=CON)  #st不这么调用，注释掉
 df = CON.query(sql)
 
