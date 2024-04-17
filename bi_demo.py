@@ -5,17 +5,20 @@ from streamlit_echarts import st_pyecharts
 import pandas as pd
 from sqlalchemy import create_engine
 
-# === 一、连接sql（导自定义方法）  ===
-# 布署于st的写法；
-CON = st.connection("mydb", type="sql", autocommit=True)
-# df = pd.read_sql_table("ods_sample_data", CON)
-# === 读取sql数据作为「预置数据」以备使用 , 下面的写法是st专用方法===
-sql = 'SELECT * FROM `ods_sample_data`'
-# df = pd.read_sql(sql=sql, con=CON)  #st不这么调用，注释掉
-df = CON.query(sql)
+import os
 
-# 本地调时的连接
-# df = conn_sql_data(table_name_="ods_sample_data")
+# === 一、连接sql（导自定义方法）  ===
+is_streamlit_sharing = os.getenv("STREAMLIT_SHARE") is not None  # 判断环境
+st.write(is_streamlit_sharing)
+if is_streamlit_sharing:
+    # 在 Streamlit Sharing 上运行的代码 , #  布署于st的写法；
+    CON = st.connection("mydb", type="sql", autocommit=True)
+    sql = 'SELECT * FROM `ods_sample_data`'
+    df = CON.query(sql)
+else:
+    # 在其他环境（例如本地）运行的代码
+    CON = create_engine("mysql://root:huanqlu0123@39.98.120.220:3306/spider?charset=utf8mb4")
+    df = pd.read_sql_table("ods_sample_data", CON)  # 本地调时的连接
 
 # === 一.2、筛选器  ===
 # v1 基本逻辑
