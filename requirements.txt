@@ -8,3 +8,4 @@ openai
 bs4
 pyecharts
 streamlit_echarts
+mysqlclient
