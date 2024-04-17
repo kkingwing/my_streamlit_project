@@ -1,6 +1,7 @@
 .streamlit/
 scripts/
 其它/
+others/
 venv/
 st关键字.md
 

@@ -7,12 +7,11 @@ from streamlit_echarts import st_pyecharts
 import pandas as pd
 from sqlalchemy import create_engine
 
-import os
+import platform
 
 # === 一、连接sql（导自定义方法）  ===
-is_streamlit_sharing = os.getenv("STREAMLIT_SHARE") is not None  # 判断环境
-st.write(is_streamlit_sharing)
-if is_streamlit_sharing:
+is_windows = platform.system() == "Windows"
+if not is_windows:
     # 在 Streamlit Sharing 上运行的代码 , #  布署于st的写法；
     CON = st.connection("mydb", type="sql", autocommit=True)
     sql = 'SELECT * FROM `ods_sample_data`'
