@@ -1,32 +1,22 @@
-
 import streamlit as st
 from datetime import datetime
 
-
 import pandas as pd
 
-st.set_page_config(
-    page_title='热搜榜聚合',  # 浏览器的标签标题，
-    page_icon='🔥',  # 标签图标，支持emoji
-    layout='wide',  # 主区域布局，默认为「居中的centered「，也可以选为「布满的wide」
-    initial_sidebar_state='auto',
-    menu_items={  # 右上角文字链接，键为固定字符串
-        'Get Help': 'https://www.extremelycoolapp.com/help',
-    }
-
-)
-# st.title('热搜榜聚合')
+# st.set_page_config(layout="wide")  # 必须在开头，且第一个调用
 
 CON = st.connection("mydb", type="sql", autocommit=True)
+print(CON)
+TODAY = datetime.now().strftime("%Y-%m-%d")
+
+st.subheader(' 📰**热榜聚合** ' + TODAY)
+
+st.divider()
+
 # === 读取sql数据作为「预置数据」以备使用 , 下面的写法是st专用方法===
 sql = 'SELECT * FROM `aggregate_hot_list`'
 # df = pd.read_sql(sql=sql, con=CON)  #st不这么调用，注释掉
 df = CON.query(sql)
-# print(CON)
-TODAY = datetime.now().strftime("%Y-%m-%d")
-
-st.subheader(' 📰**热榜聚合** ' + TODAY)
-st.divider()
 
 # 1. 读取sql的「知乎」热榜数据
 df_zhihu = df[(df['平台'] == '知乎') & (df['记录日期'] == TODAY)][:]
@@ -51,13 +41,6 @@ df_ithome = df[(df['平台'] == 'IT之家') & (df['记录日期'] == TODAY)][:]
 ithome_titles = list(df_ithome['标题'])
 ithome_urls = list(df_ithome['url'])
 ithome_hots = list(df_ithome['热度'])
-
-# 5.读取sql的「总热度」，当前热度标准不一，后需要标准化
-df_all = df[(df['记录日期'] == TODAY)][:20]
-all_platforms = list(df_all['平台'])
-all_titles = list(df_all['标题'])
-all_urls = list(df_all['url'])
-all_hots = list(df_all['热度'])
 
 
 def to_wan_hot(hot):
@@ -84,15 +67,7 @@ def to_wan_hot(hot):
 
 # === 以下为「页面布局」及「读取预置数据」。
 # st.tabs() # 标签布局
-tab_all, tab_hotlist = st.tabs(["总榜", "热搜榜"])
-with tab_all:
-    # === 容器 ===
-    with st.container(border=True, height=520):
-        st.caption('总热榜')
-        for i, (title, url, hot, platform) in enumerate(zip(all_titles, all_urls, all_hots, all_platforms)):
-            md_all = f"{i + 1}. |{platform}|    [{title}]({url})  :red[{to_wan_hot(hot)}]\n"
-            st.write(md_all)
-        st.divider()
+tab_hotlist, tab3 = st.tabs(["热搜榜单", "Owl"])
 
 # 布局： tab标签
 with tab_hotlist:
@@ -133,3 +108,29 @@ with tab_hotlist:
                 md_zhihu = f"{i + 1}. [{title}]({url})  :red[{to_wan_hot(hot)}]\n"
                 st.write(md_zhihu)
             st.divider()
+
+with tab3:
+    st.header("An owl")
+    st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
+
+# with tab_test:
+#     # 1. 读取sql的「知乎」热榜数据
+#     df_zhihu = df[(df['平台'] == '知乎') & (df['记录日期'] == TODAY)][:10]
+#     zh_titles = list(df_zhihu['标题'])
+#     zh_urls = list(df_zhihu['url'])
+#     zh_hots = list(df_zhihu['热度'])
+#     with st.container(border=True):
+#         st.markdown('<h3>知乎</h3>', unsafe_allow_html=True)
+#         st.dataframe(data=df_zhihu,  # 呈现的df
+#                      column_order=('标题',  '热度','url',),  # df要显示的列
+#                      use_container_width=True,  # 使用父容器宽度
+#                      hide_index=True,  # 隐藏索引
+#                      height=500,  # 整体高度 ，热榜呈现队所有50条内容，但在这里限制可度时可用。
+#                      # width=400,  # 宽度
+#                      column_config={  # 配置具体列的呈现样式
+#                          "url": st.column_config.LinkColumn('url',
+#                                                             # display_text="Open profile"
+#                                                             display_text='跳转',
+#                                                             ),
+#                      },
+#                      )

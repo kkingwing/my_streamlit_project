@@ -1,3 +1,5 @@
+from others.conn import  conn_sql_data
+
 import pyecharts.options as opts
 import streamlit as st
 from pyecharts.charts import Line, Bar, Pie, Grid
@@ -17,8 +19,7 @@ if is_streamlit_sharing:
     df = CON.query(sql)
 else:
     # 在其他环境（例如本地）运行的代码
-    CON = create_engine("mysql://root:huanqlu0123@39.98.120.220:3306/spider?charset=utf8mb4")
-    df = pd.read_sql_table("ods_sample_data", CON)  # 本地调时的连接
+    df = conn_sql_data(table_name_="ods_sample_data")
 
 # === 一.2、筛选器  ===
 # v1 基本逻辑
