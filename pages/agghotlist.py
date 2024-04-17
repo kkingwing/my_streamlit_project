@@ -16,17 +16,15 @@ st.set_page_config(
 # st.title('热搜榜聚合')
 
 CON = st.connection("mydb", type="sql", autocommit=True)
-print(CON)
-TODAY = datetime.now().strftime("%Y-%m-%d")
-
-st.subheader(' 📰**热榜聚合** ' + TODAY)
-
-st.divider()
-
 # === 读取sql数据作为「预置数据」以备使用 , 下面的写法是st专用方法===
 sql = 'SELECT * FROM `aggregate_hot_list`'
 # df = pd.read_sql(sql=sql, con=CON)  #st不这么调用，注释掉
 df = CON.query(sql)
+# print(CON)
+TODAY = datetime.now().strftime("%Y-%m-%d")
+
+st.subheader(' 📰**热榜聚合** ' + TODAY)
+st.divider()
 
 # 1. 读取sql的「知乎」热榜数据
 df_zhihu = df[(df['平台'] == '知乎') & (df['记录日期'] == TODAY)][:]
@@ -84,16 +82,15 @@ def to_wan_hot(hot):
 
 # === 以下为「页面布局」及「读取预置数据」。
 # st.tabs() # 标签布局
-tab_all,tab_hotlist = st.tabs(["总榜","热搜榜"])
+tab_all, tab_hotlist = st.tabs(["总榜", "热搜榜"])
 with tab_all:
     # === 容器 ===
     with st.container(border=True, height=520):
         st.caption('总热榜')
-        for i, (title, url, hot,platform) in enumerate(zip(all_titles, all_urls, all_hots,all_platforms)):
+        for i, (title, url, hot, platform) in enumerate(zip(all_titles, all_urls, all_hots, all_platforms)):
             md_all = f"{i + 1}. |{platform}|    [{title}]({url})  :red[{to_wan_hot(hot)}]\n"
             st.write(md_all)
         st.divider()
-
 
 # 布局： tab标签
 with tab_hotlist:

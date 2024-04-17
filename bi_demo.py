@@ -82,7 +82,9 @@ pt_phonetype = df_filter.pivot_table(index=['型号'], values=['销售额'], agg
 pt_age_range = df_filter.pivot_table(index=['年龄分段'], values=['销售额'], aggfunc='sum')
 
 # 截取
-pt_phonetype = pt_phonetype.sort_values(by='销售额', ascending=False)[:10]  # 排序截取前10个，只显示这部分
+pt_phonetype = pt_phonetype.sort_values(by='销售额', ascending=False)  # 排序截取前10个，只显示这部分
+if len(pt_phonetype) >= 10:  # 过长时截取前10项
+    pt_phonetype = pt_phonetype[:10]
 pt_phonetype = pt_phonetype.sort_values(by='销售额', ascending=True)  # 逆序一下
 
 # df_to_ls
